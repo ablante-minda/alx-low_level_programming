@@ -7,15 +7,18 @@ int main(void)
 {
 	char x;
 	char y;
+
 	x = 'a';
 	y = 'A';
-	while 
-		(x <= 'z'){
+
+	while
+
+		(x <= 'z') {
 			putchar(x);
 			x++;
 		}
 	while
-		(y <= 'Z'){
+		(y <= 'Z') {
 			putchar(y);
 			y++;
 		}
