@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * _atoi - convert string
  * @s: pointer to character
