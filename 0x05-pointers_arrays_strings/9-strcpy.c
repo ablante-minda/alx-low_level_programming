@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * _strcpy - copiar
- * 2dest: this is destiny
+ * @dest: this is destiny
  * @src: copia
  * Return: return copy
  */
