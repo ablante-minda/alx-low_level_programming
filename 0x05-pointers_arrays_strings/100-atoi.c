@@ -4,8 +4,8 @@
  * @s: pointer to character
  *
  * Return :void
- *
  */
+
 int _atoi(char *s)
 {
 	int sign;
