@@ -5,7 +5,7 @@
  * @s: thi is the input string
  * Return: length of the string
  */
-int -strlen(char *s)
+int _strlen(char *s)
 {
 	int index;
 
