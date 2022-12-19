@@ -1,1 +1,1 @@
-pointers_arrays_strings
+Readme for pointer
