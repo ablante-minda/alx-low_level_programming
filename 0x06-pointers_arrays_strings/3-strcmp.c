@@ -5,7 +5,7 @@
  * @s1:first string
  * @s2:second string
  * @strcmp: fuction for compare strings
- * Returns: _strcmp
+ * Returns: @strcmp
  * returns 0 if s1 ==s2
  * returns negative number if s1 < s2
  * returns positive number if s1 > s2
