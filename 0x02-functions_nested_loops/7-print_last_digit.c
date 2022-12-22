@@ -11,6 +11,8 @@ int print_last_digit(int n)
 
 	if (ldigit < 0)
 		ldigit *= -1;
+	else if (ldigit < 98)
+		ldigit *= -1;
 
 	_putchar(ldigit + '0');
 
