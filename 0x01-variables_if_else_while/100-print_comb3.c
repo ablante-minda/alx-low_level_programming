@@ -5,7 +5,7 @@
  * print all possible combination of two digit
  * Return: Always 0.
  */
-int main (void)
+int main(void)
 {
 	int num1;
 	int num2 = 0;
