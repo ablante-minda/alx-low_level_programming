@@ -5,7 +5,7 @@
  * prints all possible three combination number
  * Return: Always 0.
  */
-int main(void);
+int main(void)
 {
 	int num1;
 	int num2;
