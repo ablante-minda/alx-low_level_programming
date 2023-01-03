@@ -2,23 +2,28 @@
 /**
  * _strspn - prints the consecutive characters of s1 that are in s2.
  * @s: source string
- *
  * @accept: search string
+ *
  * Return: new string.
  */
 unsigned int _strspn(char *s, char *accept)
 {
-	unsigned int i, j;
+	unsigned int n = 0;
+	int r;
 
-	for (j = 0; *(s + j); j++)
+	while (*s)
 	{
-		for (i = 0; *(accept + i); i++)
+		for (r = 0; accept[r]; r++)
 		{
-			if (*(s + j) == *(accept + i))
-			       break;
+			if (*s == accept[r])
+			{
+				n++;
+				break;
+			}
+			else if (accept[r + 1] == '\0')
+				return (n);
 		}
-	if (*(accept + i) == '\0')
-		break;
+		s++;
 	}
-	return (j);
+	return (n);
 }
