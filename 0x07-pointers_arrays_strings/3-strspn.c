@@ -2,6 +2,7 @@
 /**
  * _strspn - prints the consecutive characters of s1 that are in s2.
  * @s: source string
+ *
  * @accept: search string
  * Return: new string.
  */
