@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * helperfunction - checks if sqrt of number exists
+ * helperFunction - checks if sqrt of number exists
  * @num: number.
  * @psqrt: poissible sqrt of number.
  *
@@ -18,7 +18,6 @@ int helperFunction(int num, int psqrt)
 		if ((psqrt * psqrt) > num)
 			return (-1);
 		else
-
 			return (helperFunction(num, psqrt + 1));
 	}
 }
