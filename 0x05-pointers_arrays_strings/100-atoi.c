@@ -3,7 +3,7 @@
  * _atoi - convert string
  * @s: pointer to character
  *
- * Return :void
+ * Return: void
  */
 
 int _atoi(char *s)
