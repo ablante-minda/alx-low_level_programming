@@ -1,1 +1,1 @@
-readme for low level programing level programming debugging
+readme for 0x03-debugging project
