@@ -1,7 +1,7 @@
 #include "3-calc.h"
 /**
  * op_add - return the sum of 2 intiger
- * @a: intiger 
+ * @a: intiger
  * @b: intiger
  *
  * Return: sum
@@ -13,14 +13,14 @@ int op_add(int a, int b)
 
 /**
  * op_sub -returns difference of 2 numbers
- * @a: intiger 
+ * @a: intiger
  * @b: intiger
  *
  * Return: difference
  */
 int op_sub(int a, int b)
 {
-	return (a - b); 
+	return (a - b);
 }
 
 /**
@@ -32,7 +32,7 @@ int op_sub(int a, int b)
  */
 int op_mul(int a, int b)
 {
-	 return (a * b);
+	return (a * b);
 }
 
 /**
@@ -59,7 +59,7 @@ int op_div(int a, int b)
  *
  * Return: remainder
  */
-int op_mod(int a, int b) 
+int op_mod(int a, int b)
 {
 	if (b == 0)
 	{
